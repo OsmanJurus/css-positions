@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* with relative and absolute postions! */
+
+.box-1 {
+  width: 320px;
+  height: 320px;
+  background-color: dodgerblue;
+  border: 5px solid darkblue;
+  border-radius: 5px;
+
+  margin: auto;
+}
+
+.box-2 {
+  width: 120px;
+  height: 120px;
+  background-color: pink;
+  border: 2px solid darkred;
+}
+
+.container {
+ background-color: yellowgreen; 
+}
+
+.box-1 {
+    position: relative;
+}
+
+.box-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+}
+
+/* with sticky and fixed postions! */
+/* 
+.box-1{
+    width: 120px;
+    height: 120px;
+    background-color: pink;
+    border: 2px solid darkred;
+    border-radius: 5px;
+
+    position: sticky;
+    top: 10px;
+    left: 10px;
+}
+
+.container{
+    height: 3000px;
+} */
+
+/* That's all, done! */
